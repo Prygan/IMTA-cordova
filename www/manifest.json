@@ -1,0 +1,11 @@
+{
+    "short_name": "Conférences devfest",
+    "name": "Conférences devfest",
+    "icons": [{
+            "src": "img/IMT_ATLANTIQUE",
+            "type": "image/png",
+            "sizes": "48x48"
+        }
+    ],
+    "start_url": "index.html"
+}

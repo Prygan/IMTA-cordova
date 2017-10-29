@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>PWA pour les conferences</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">Conférence</a>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col s12 m6">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title" id="speaker-name"></span>
+              <p>Ajouter à mes contacts</p>
+              <div class="switch">
+                <label>
+                <input type="checkbox" id="contactCheckbox" onclick="changeContactState()">
+                <span class="lever"></span>
+                </label>
+              </div>
+
+              <img id="speaker-photo" width="75%">
+              <h5>Biographie</h5>
+              <p id="speaker-bio"></p>
+            </div>
+            <div class="card-action" id="talks">
+                <h5>Ses présentations</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<script type="text/javascript" src="cordova.js"></script>
+<script src="js/services/speakerSvc.js"></script>
+<script src="js/services/sessionSvc.js"></script>
+<script src="js/services/uriSvc.js"></script>
+<script src="js/presentateur-detail.js"></script>
+</body>
+
+</html>
