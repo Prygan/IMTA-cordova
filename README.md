@@ -1,7 +1,7 @@
 # IMTA-cordova
 A project using cordova for school by Dimitri Saingre
 
-## Installation 
+## Installation 
 
 run :
 - npm install
